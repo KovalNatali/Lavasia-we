@@ -1,0 +1,44 @@
+.burger {
+  display: none;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-line {
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Медіа-запит для мобільних */
+@media screen and (max-width: 1199.98px) {
+  /* Залишити навігацію прихованою за замовчуванням */
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .nav > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav.open {
+    display: flex; /* Покажіть меню при додаванні класу "open" */
+  }
+
+  .burger {
+    display: flex; /* Показати бургер-меню */
+  }
+}
