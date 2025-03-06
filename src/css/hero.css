@@ -2,4 +2,19 @@
   font-size: 26px;
   font-weight: 700px;
   line-height: 33.8px;
+  margin-bottom: 25px;
+}
+.hero-text {
+  font-size: 14px;
+  color: #afadb5;
+  text-align: justify;
+  line-height: 25.2px;
+}
+
+.button-about {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.title-h2 {
+  margin-bottom: 15px;
 }
